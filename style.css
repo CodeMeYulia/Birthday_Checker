@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+}
+.counter_container{
+    background-color: rgb(0, 114, 114);
+    border: 1px dashed #000;
+    border-radius: 15px;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+}
+
+.birth{
+    background-color: rgb(224, 255, 255);
+    border-radius: 15px;
+    width: 180px;
+    height: 4dvh;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
