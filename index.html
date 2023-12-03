@@ -11,8 +11,9 @@
 <body>
     <h1>Дни до дня рождения</h1>
     <div class="counter_container">
-        <input type="date" class="birthday">
-        <button type=" button" onclick="birthdayBefore()" class="birthdayBtn">Посчитать</button>
+        <input type="date" class="birthday" onchange="change()">
+        <div id="alarm"></div>
+        <button type="button" id="birthdayBtn">Посчитать</button>
     </div>
 
     <script src="./script.js"></script>
