@@ -34,8 +34,13 @@ let birthdayBefore = () => {
     const birth = document.createElement('div');
     birth.classList.add('birth');
     birth.innerHTML = `До дня рождения ${waiting} ${day}
-    <img src = "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_370,h_300/https://otkritkit.ru/wp-content/uploads/the-coolest-gifs-happy-birthday-a3.gif" alt = "happy birthday">`;
+    <img id = "gif" src = "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_370,h_300/https://otkritkit.ru/wp-content/uploads/the-coolest-gifs-happy-birthday-a3.gif" alt = "happy birthday">`;
     container.append(birth);
+    birthdayBtn.classList.add('birthdayBtn')
+
+    setTimeout(function(){
+        document.getElementById('gif').style.display = 'none';
+    }, 3000);
 }
 
 //делаем видимой кнопку и убираем подсказку, если вносятся изменения в дату
