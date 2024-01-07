@@ -1,17 +1,23 @@
-h1{
-    text-align: center;
-}
-.counter_container{
-    background-color: rgb(0, 114, 114);
-    border: 1px dashed #000;
+.birthday-block {
+    border: 1px solid #2c2c2c;
     border-radius: 15px;
-    width: 50%;
-    text-align: center;
-    padding: 10px;
+    padding: 20px;
+    width: 25%;
     margin: auto;
 }
 
-.birth{
+h1 {
+    text-align: center;
+}
+
+.counter_container {
+    background-color: rgb(0, 114, 114);
+    border: 1px dashed #000;
+    text-align: center;
+    padding: 10px;
+}
+
+.birth {
     background-color: rgb(224, 255, 255);
     border-radius: 15px;
     width: 180px;
@@ -22,18 +28,18 @@ h1{
     margin-top: 20px;
 }
 
-.birthdayBtn, .attentionInv{
-   display: none; 
+.birthdayBtn,
+.attentionInv {
+    display: none;
 }
 
-.attention{
+.attention {
     background-color: rgb(248, 87, 87);
     border-radius: 10px;
-color: whitesmoke;
+    color: whitesmoke;
     max-width: 80%;
     height: 10px;
     margin: auto;
     margin-top: 10px;
     padding: 10px;
 }
-
